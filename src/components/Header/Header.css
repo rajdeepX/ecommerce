@@ -1,0 +1,40 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+
+.product-head__left {
+  display: flex;
+  gap: 2rem;
+}
+
+.product-cart__box {
+  background-color: #646cff;
+  color: #fff;
+  padding: 7px 20px;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.logout:hover {
+  background-color: #ff0000ce;
+}
+
+.user-img__box {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.user-img__box img {
+  width: 100%;
+}

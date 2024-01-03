@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.product-container__main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 160px;
+}
+
+.nav-container {
+  position: fixed;
+  top: 0;
+  left: 14rem;
+  right: 14rem;
+  background-color: #242424;
+  border-radius: 0 0 10px 10px;
+}
+
+/* login-form */
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  gap: 1rem;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.75rem;
+}
+.form-control label {
+  font-size: 1.5rem;
+}
+.form-control input {
+  padding: 7px 10px;
+  font-size: 1rem;
+}
+
+/* error page */
+
+.error a {
+  background-color: #646cff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
